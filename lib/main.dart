@@ -49,26 +49,6 @@ class ProfileScreen extends StatelessWidget {
                       backgroundImage: AssetImage('assets/images/11.PNG'),
                       radius: 40,
                     )),
-                // Align(
-                //   alignment: Alignment.bottomRight,
-                //   child: Container(
-                //     height: spacer.w * 2.5,
-                //     width: spacer.w * 2.5,
-                //     decoration: BoxDecoration(
-                //       color: Theme.of(context).accentColor,
-                //       shape: BoxShape.circle,
-                //     ),
-                //     child: Center(
-                //       heightFactor: spacer.w * 1.5,
-                //       widthFactor: spacer.w * 1.5,
-                //       // child: Icon(
-                //       //   LineAwesomeIcons.pen,
-                //       //   color: primarycolor,
-                //       //   size: ScreenUtil().setSp(spacer.w * 1.5),
-                //       // ),
-                //     ),
-                //   ),
-                // ),
               ],
             ),
           ),
@@ -134,10 +114,6 @@ class ProfileScreen extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         SizedBox(width: spacer.w * 3),
-        // Icon(
-        //   LineAwesomeIcons.arrow_left,
-        //   size: ScreenUtil().setSp(spacer.w * 3),
-        // ),
         profileInfo,
         themeSwitcher,
         SizedBox(width: spacer.w * 3),
